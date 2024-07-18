@@ -9,6 +9,25 @@
       "client_info": {
         "mobilesdk_app_id": "1:403986926462:android:04657467836c14a697812f",
         "android_client_info": {
+          "package_name": "com.example.chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzHdQk_s87uO5GJeEXkWQRf-8NvHnPuBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403986926462:android:65f46d7a2063177597812f",
+        "android_client_info": {
           "package_name": "com.weitecklee.flutterchatapp"
         }
       },
