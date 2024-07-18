@@ -5,6 +5,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 final _firebase = FirebaseAuth.instance;
 
@@ -122,6 +123,7 @@ class _AuthScreenState extends State<AuthScreen> {
                               },
                             ),
                           TextFormField(
+                            key: const ValueKey('email'),
                             decoration: const InputDecoration(
                               labelText: 'Email Address',
                             ),
@@ -142,6 +144,7 @@ class _AuthScreenState extends State<AuthScreen> {
                           ),
                           if (!_isLogin)
                             TextFormField(
+                              key: const ValueKey('username'),
                               decoration: const InputDecoration(
                                 labelText: 'Username',
                               ),
